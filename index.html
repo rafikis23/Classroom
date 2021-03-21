@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Classroom</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--CSS Personalizado-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Google Fonts Roboto-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/805e6a4495.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Navbar-->
+
+    <nav class="navbar navbar-light bg-light border-bottom">
+        <div class="container-fluid justify-content-start">
+            <button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <br>
+            <a class="navbar-brand " href="#">
+                <img src="img/logo.svg" alt="" width="60" height="45" class="align-content-start"> Classroom
+            </a>
+            <div class="ml-auto justify-content-end">
+                <button type="button" class="btn btn-light"><i class="fas fa-plus"></i></button>
+                <button type="button" class="btn btn-light"><i class="fas fa-th"></i></button>
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"><img src="img/goku.jpg" class="rounded-circle" alt="..."></button>
+                <ul id="margenInstructor" class="dropdown-menu dropdown-menu-left ">
+                    <li>
+                        <a class="dropdown-item " href="#">
+                            <div class=" row">
+                                <div #dropImagen class="col-4">
+                                    <img id="instructor" class="rounded-circle" src="img/goku.jpg" alt="" srcset="">
+                                </div>
+                                <div class="table col-8">
+                                    <div scope="col">
+                                        goku@gmail.com
+                                    </div>
+                                    <div scope="col">
+                                        Goku
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="#">
+                            <div class=" row">
+                                <div #dropImagen class="col-4">
+                                    <img id="instructor" class="rounded-circle" src="img/vegeta.jpg" alt="" srcset="">
+                                </div>
+                                <div class="table col-8">
+                                    <div scope="col">
+                                        vegeta@gmail.com
+                                    </div>
+                                    <div scope="col">
+                                        Vegeta
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="#">
+                            <div class=" row">
+                                <div #dropImagen class="col-4">
+                                    <img id="instructor" class="rounded-circle" src="img/picoro.jpg" alt="" srcset="">
+                                </div>
+                                <div class="table col-8">
+                                    <div scope="col">
+                                        picoro@gmail.com
+                                    </div>
+                                    <div scope="col">
+                                        Picoro
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item align-text-center" href="#"> <i class="fas fa-user-plus"></i> Agregar Instructor</a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item align-text-center" href="#"> Privacy Policy - Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!--
+    <div class="collapse bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">Todas las Clases</div>
+        <div class="list-group list-group-flush">
+            <a href="">POO</a>
+            <a href="">Programacion</a>
+        </div>
+
+    </div> 
+-->
+    <!---
+    <div class="collapse bg-dark border-bottom" id="sidebar">
+        <div class="sidebar-heading">Todas las clases</div>
+        <div class="list-group list-group-flush">
+            <a href="">POO</a>
+            <a href="">Programacion</a>
+        </div>
+        
+        <div class="bg-dark p-4">
+            <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+        </div>
+        
+    </div> -->
+    <!--Sidebar-->
+    <!--
+    <nav id="sidebarMenu" class="col-md-3 col-lg-3 d-md-block border-end bg-light sidebar collapse">
+        <div class="rounded-pill "><i id="house" class="mt-3 ml-4 mr-4 fas fa-home fa-1.5x"> 
+        </i> Todas las Clases</div>
+        <div class="position-sticky pt-3 border-top mt-2">
+            <ul class=" nav flex-column ">
+                <li class="nav-item ">
+                    <a class="nav-link active " aria-current="page " href="# ">
+                        <span data-feather="home "></span> Clases
+                    </a>
+                </li>
+            </ul>
+            <div class="row row-cols-2">
+                <div class="col"><img class="rounded-circle" src="img/baby.jpg"></div>
+                <div class="col table">
+                    <div scope="col">POO</div>
+                    <div scope="col">1600</div>
+                </div>
+            </div>
+            <div class="mt-2 row row-cols-2">
+                <div class="col "><img class="rounded-circle" src="img/bulma.jpg"></div>
+                <div class="col table">
+                    <div scope="col">Programacion II</div>
+                    <div scope="col">1300</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+-->
+
+    <!--Cards-->
+    <div class="container ">
+        <div class="row ">
+
+            <div id="cartas " class="col-3 mt-5 mr-1">
+                <div class="card border-success mb-3 text-white" style="max-width: 18rem;">
+                    <img class="card-img-top" src="img/4.jpeg" alt="">
+                    <div class="card-img-overlay row">
+                        <div class="table col-10">
+                            <div scope="col">
+                                <h4 class="card-title">POO</h4>
+                            </div>
+                            <div scope="col">
+                                <p class="card-text">1600</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div class="card-body text-success">
+                        <p class="card-text table ">
+                            <div scope="col">
+                                <p>12/12/2012</p>
+                            </div>
+                            <div scope="col">
+                                <h6>Tarea 1</h6>
+                            </div>
+                            <div scope="col">
+                                <p>12/12/2012</p>
+                            </div>
+                            <div scope="col">
+                                <h6>Tarea 2</h6>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-success">
+                        <div class="row ">
+                            <i class="ml-auto fas fa-chart-line fa-2x"></i>
+                            <i class="ml-2 far fa-folder fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cartas " class="col-3 mr-1 mt-5">
+                <div class="card border-success mb-3 text-white" style="max-width: 18rem;">
+                    <img class="card-img-top" src="img/1.jpeg" alt="">
+                    <div class="card-img-overlay row">
+                        <div class="table col-10">
+                            <div scope="col">
+                                <h4 class="card-title">Programacio II</h4>
+                            </div>
+                            <div scope="col">
+                                <p class="card-text">1300</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div class="card-body text-success">
+                        <p class="card-text table ">
+                            <div scope="col">
+                                <p>12/12/2012</p>
+                            </div>
+                            <div scope="col">
+                                <h6>Tarea 1</h6>
+                            </div>
+                            <div scope="col">
+                                <p>12/12/2012</p>
+                            </div>
+                            <div scope="col">
+                                <h6>Tarea 2</h6>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-success">
+                        <div class="row ">
+                            <i class="ml-auto fas fa-chart-line fa-2x"></i>
+                            <i class="ml-2 far fa-folder fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+<script src="js/controlador.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+
+</html>

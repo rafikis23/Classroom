@@ -1,0 +1,155 @@
+.root {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.border-success {
+    border-color: gray !important;
+}
+
+.justify-content-end {
+    margin-left: auto !important;
+}
+
+.rounded-circle {
+    width: 35% !important;
+    height: 35% !important;
+}
+
+.fa-plus {
+    color: #5F6367 !important;
+}
+
+.fa-th {
+    color: #5F6367 !important;
+}
+
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: fixed;
+    display: none;
+    top: 0;
+    /* rtl:raw:
+    right: 0;
+    */
+    bottom: 0;
+    /* rtl:remove */
+    left: 0;
+    z-index: 100;
+    /* Behind the navbar */
+    padding: 48px 0 0;
+    /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 5rem;
+    }
+}
+
+.sidebar-sticky {
+    position: relative;
+    display: none;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #727272;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+.rounded-pill {
+    background-color: #E6EEFC !important;
+    width: 92% !important;
+    height: 55px !important;
+}
+
+#house {
+    text-align: center !important;
+}
+
+.col {
+    width: 100% !important;
+    height: 200% !important;
+    text-align: center !important;
+    margin-top: 1.2rem !important;
+}
+
+.row-cols-2 {
+    max-width: 84% !important;
+}
+
+.card-title {
+    color: white !important;
+}
+
+.card-text {
+    color: white !important;
+}
+
+.card-footer {
+    color: #5F6367 !important;
+}
+
+p {
+    color: #7E7E7E !important;
+}
+
+h6 {
+    color: black !important;
+}
+
+.dropdown-menu-left {
+    left: auto !important;
+    right: 3rem !important;
+}
+
+.dropdown-menu {
+    padding: 1.5rem !important;
+}
+
+#dropImagen {
+    width: 150% !important;
+    height: 150% !important;
+}
+
+#instructor {
+    width: 130% !important;
+    height: 90% !important;
+    margin-right: 3rem !important;
+}
+
+#margenInstructor {
+    width: 20% !important;
+    margin-right: 2px !important;
+    margin-left: 2px !important;
+    justify-content: right !important;
+}
